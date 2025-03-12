@@ -1,0 +1,1 @@
+This package is used to export a .unitypackage. It automates the process. That's about it.

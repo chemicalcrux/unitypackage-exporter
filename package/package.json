@@ -1,0 +1,8 @@
+{
+  "name": "com.chemicalcrux.unitypackage-exporter",
+  "displayName": "UnityPackage Exporter",
+  "version": "0.1.0",
+  "hideInEditor": true,
+  "description": "Exports a set of files into a package",
+  "unity": "2022.3"
+}
