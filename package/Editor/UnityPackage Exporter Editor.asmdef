@@ -1,10 +1,10 @@
 {
     "name": "UnityPackageExporterEditor",
     "rootNamespace": "ChemicalCrux.UnityPackageExporter.Editor",
-    "references": [
-        "GUID:4882c03734039431dbf1ffd1c0b58321"
+    "references": [],
+    "includePlatforms": [
+        "Editor"
     ],
-    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

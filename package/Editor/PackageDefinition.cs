@@ -9,6 +9,7 @@ namespace ChemicalCrux.UnityPackageExporter.Editor
     public class PackageDefinition : ScriptableObject
     {
         public string fileName;
+        public string version;
         public List<DefaultAsset> roots;
 
         [ContextMenu("Export")]
@@ -26,8 +27,9 @@ namespace ChemicalCrux.UnityPackageExporter.Editor
             
             var paths = guids.Select(AssetDatabase.GUIDToAssetPath)
                 .ToArray();
-        
-            AssetDatabase.ExportPackage(paths, fileName + ".unitypackage", ExportPackageOptions.Recurse);
+
+            string result = $"{fileName} v{version}.unitypackage";
+            AssetDatabase.ExportPackage(paths, result, ExportPackageOptions.Recurse);
         }
     }
 }
